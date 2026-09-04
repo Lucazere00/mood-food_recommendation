@@ -6,7 +6,7 @@ In questa sezione vengono mostrati gli esempi d'uso della schermata **Home (LLM)
 
 ### 1. Ingrediente Singolo + Stanchezza (Immagine 11)
 
-![Home LLM - Ingrediente e Stanchezza](assets/Schermata del 2026-09-04 15-48-21.png)
+![Home LLM - Ingrediente e Stanchezza](assets/Schermata%20del%202026-09-04%2015-48-21.png)
 
 * **Query:** `"Sono stanco, ho soltanto petto di pollo in frigorifero, cosa mi consigli?"`
 * **Intent estratto:** `ingrediente: chicken` | `time: -4.0`
@@ -18,7 +18,7 @@ In questa sezione vengono mostrati gli esempi d'uso della schermata **Home (LLM)
 
 ### 2. Dettaglio Ricetta Espanso (Immagine 10)
 
-![Home LLM - Dettaglio Espanso](assets/img10_home_dettaglio_ricetta.png)
+![Home LLM - Dettaglio Espanso](assets/Schermata%20del%202026-09-04%2015-48-33.png)
 
 * **Vista UI:** Dettaglio espanso di **My Famous Shredded Chicken** (90 min, 321.5 kcal, score `0.5`).
 * **Ingredienti:** `chicken breasts`, `chicken broth`
@@ -29,7 +29,7 @@ In questa sezione vengono mostrati gli esempi d'uso della schermata **Home (LLM)
 
 ### 3. Tempo e Dieta (Immagine 9)
 
-![Home LLM - Tempo e Dieta](assets/img9_home_tempo_vegano.png)
+![Home LLM - Tempo e Dieta](assets/Schermata%20del%202026-09-04%2015-49-28.png)
 
 * **Query:** `"Ho molto tempo per cucinare, sono vegano"`
 * **Intent estratto:** `time: +5.0` | `tag: vegan` | `profilo: balanced`
@@ -41,7 +41,7 @@ In questa sezione vengono mostrati gli esempi d'uso della schermata **Home (LLM)
 
 ### 4. Vincoli Calorici e Tempo (Immagine 8)
 
-![Home LLM - Vincoli Calorici e Tempo](assets/img8_home_calorie_tempo.png)
+![Home LLM - Vincoli Calorici e Tempo](assets/Schermata%20del%202026-09-04%2015-50-40.png)
 
 * **Query:** `"Voglio provare qualcosa di nuovo, sotto le 600 calorie e con una preparazione di al massimo 30 minuti"`
 * **Intent estratto:** `modification: +3.0` | `time: -4.0` | `max_calories: 600` | `profilo: balanced`
@@ -53,7 +53,7 @@ In questa sezione vengono mostrati gli esempi d'uso della schermata **Home (LLM)
 
 ### 5. Query Economica / Leggera (Immagine 7)
 
-![Home LLM - Query Economica](assets/img7_home_economica_leggera.png)
+![Home LLM - Query Economica](assets/Schermata%20del%202026-09-04%2015-52-21.png)
 
 * **Query:** `"Ho pochi soldi, voglio qualcosa di fresco ma non troppo calorico"`
 * **Intent estratto:** `body: -5.0` | `price: -5.0`
@@ -65,7 +65,7 @@ In questa sezione vengono mostrati gli esempi d'uso della schermata **Home (LLM)
 
 ### 6. Query Mood Senza Vincoli Stringenti (Immagine 6)
 
-![Home LLM - Query Mood](assets/img6_home_mood_generico.png)
+![Home LLM - Query Mood](assets/Schermata%20del%202026-09-04%2015-53-57.png)
 
 * **Query:** `"Voglio qualcosa di leggero, ho molti soldi a disposizione ma sono stanco"`
 * **Intent estratto:** `body: -3.0` | `price: +5.0` | `time: -4.0`
